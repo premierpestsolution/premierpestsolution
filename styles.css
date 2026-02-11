@@ -1228,3 +1228,18 @@ body.menu-open .drawer {
     grid-template-columns: 1fr;
   }
 }
+.social-icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  transition: 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
