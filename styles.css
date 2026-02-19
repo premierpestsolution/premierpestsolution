@@ -137,13 +137,13 @@ p { color: var(--muted); }
   min-height: 420px;
 
   /* Βάλε εδώ τη φωτογραφία background */
-  background: url("assets/pic1.png") center/cover no-repeat;
+  background: url("assets/office.png") center/cover no-repeat;
 }
 
 .hero-overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.62) 0%, rgba(0, 0, 0, 0.35) 60%, rgba(0, 0, 0, 0.20) 100%);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.55) 60%, rgba(0, 0, 0, 0.35) 100%);
 }
 
 .hero-inner {
